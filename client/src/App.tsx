@@ -7,7 +7,7 @@ import { Security, ImplicitCallback } from '@okta/okta-react';
 const config = {
   issuer: 'https://dev-879975.okta.com/oauth2/default',
   redirect_uri: window.location.origin + '/implicit/callback',
-  client_id: '0oajd2y2fTGhQbEwM356'
+  client_id: '0oa1dam8ebDLvIGmh357'
 };
 
 export interface Auth {
