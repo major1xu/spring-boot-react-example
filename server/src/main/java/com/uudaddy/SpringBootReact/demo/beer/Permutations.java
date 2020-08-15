@@ -1,9 +1,5 @@
 package com.uudaddy.SpringBootReact.demo.beer;
 
-/*
- * Click `Run` to execute the snippet below!
- */
-
 import java.io.*;
 import java.util.*;
 
@@ -34,7 +30,10 @@ class Permutations {
 
     public static int sum_of_values_in_array(List<Integer> numbers, int number_to_find, int sum, int startIndex)
     {
+        // thoughts: no need to pass in sum and start index
+        // use a dynamic list to keep track of the elements, and also print them out if the sum matches numberToFind
         List<Integer> smaller_list = new ArrayList<Integer>();
+
         sum = sum+numbers.get(startIndex);
 
         if(sum == number_to_find)
