@@ -99,6 +99,20 @@
 			<scope>test</scope>
 		</dependency>
 
+			<dependency>
+				<groupId>com.google.cloud</groupId>
+				<artifactId>libraries-bom</artifactId>
+				<version>9.1.0</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+		<dependency>
+			<groupId>com.google.cloud</groupId>
+			<artifactId>google-cloud-storage</artifactId>
+			<version>1.111.2</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
