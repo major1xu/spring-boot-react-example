@@ -8,6 +8,10 @@ import java.util.*;
  * named Solution.
  *
  * If you need more classes, simply define them inline.
+ *
+ * https://www.mathworks.com/matlabcentral/answers/203833-all-possible-combinations-such-that-sum-of-all-numbers-is-a-fixed-number
+ * https://www.mathworks.com/matlabcentral/fileexchange/12009-partitions-of-an-integer
+ * https://en.wikipedia.org/wiki/Partition_(number_theory)
  */
 
 class Permutations {
