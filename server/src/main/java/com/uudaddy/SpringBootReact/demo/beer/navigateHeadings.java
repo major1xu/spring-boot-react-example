@@ -1,13 +1,13 @@
 import java.io.*;
 import java.util.*;
 /*
-H1 something
-H2 something
-H3 something
-H3 something
-H2 something
-H3 something
-
+H1 grand parent
+H2 parent 1
+H3 kid 1
+H3 kid 2
+H2 parent 2
+H3 kid 3
+^D
 on Mac use Command D to indicate end of file (IntelliJ terminal)
  */
 class navigateHeadings
@@ -38,7 +38,7 @@ class navigateHeadings
         int number_of_lines = 0;
         for (String line = br.readLine(); line != null; line = br.readLine()) {
             headings.add(parse(line));
-            System.out.println("number_of_lines= "+number_of_lines);
+            //System.out.println("number_of_lines= "+number_of_lines);
 
             number_of_lines++;
         }
