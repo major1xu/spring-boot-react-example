@@ -4,9 +4,11 @@ import java.util.*;
 H1 something
 H2 something
 H3 something
-H3 somethng
+H3 something
 H2 something
 H3 something
+
+on Mac use Command D to indicate end of file (IntelliJ terminal)
  */
 class navigateHeadings
 {
@@ -33,9 +35,15 @@ class navigateHeadings
     {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         List<Heading> headings = new ArrayList<>();
+        int number_of_lines = 0;
         for (String line = br.readLine(); line != null; line = br.readLine()) {
             headings.add(parse(line));
+            System.out.println("number_of_lines= "+number_of_lines);
+
+            number_of_lines++;
         }
+        System.out.println("number_of_lines= "+number_of_lines);
+
         Node outline = toOutline(headings);
         String html = toHtml(outline);
         System.out.println(html);

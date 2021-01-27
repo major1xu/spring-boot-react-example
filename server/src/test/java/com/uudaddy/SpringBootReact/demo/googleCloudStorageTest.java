@@ -1,5 +1,5 @@
 package com.uudaddy.SpringBootReact.demo;
-
+/*
 import org.junit.Test;
 import com.google.api.gax.paging.Page;
 import com.google.auth.oauth2.ComputeEngineCredentials;
@@ -28,3 +28,4 @@ public class googleCloudStorageTest {
     }
 
 }
+*/
