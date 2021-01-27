@@ -1,6 +1,11 @@
 import java.io.*;
 import java.util.*;
 /*
+test case 0
+H1 grand parent
+^D
+
+test case 1
 H1 grand parent
 H2 parent 1
 H3 kid 1
