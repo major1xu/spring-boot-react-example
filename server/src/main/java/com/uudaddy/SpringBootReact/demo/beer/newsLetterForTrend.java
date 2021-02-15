@@ -26,7 +26,9 @@ public class newsLetterForTrend {
 
         try {
 
-            HttpGet request = new HttpGet("https://github-trending-api.now.sh/repositories?since=weekly");
+            HttpGet request = new HttpGet("https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats");
+			//(https://github.com/anuraghazra/github-readme-stats");
+			//"https://github-trending-api.now.sh/repositories?since=weekly");
 
             // add request headers
             request.addHeader("custom-key", "MXU");

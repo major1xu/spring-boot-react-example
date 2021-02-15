@@ -3,6 +3,7 @@ package com.uudaddy.SpringBootReact.demo;
 import org.junit.Test;
 import static org.mockito.Mockito.*;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -36,6 +37,16 @@ public class MockitoTest {
 
 		// the following prints "null" because get(999) was not stubbed
 		System.out.println(mockedList.get(999));
+
+		List<String> myList =
+				Arrays.asList("a1", "a2", "b1", "c2", "c1");
+
+		myList
+				.stream()
+				.filter(s -> s.startsWith("c"))
+				.map(String::toUpperCase)
+				.sorted()
+				.forEach(System.out::println);
 	}
 
 }
