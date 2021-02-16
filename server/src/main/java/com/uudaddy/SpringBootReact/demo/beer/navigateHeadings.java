@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 /*
+<<<<<<< Updated upstream
 test case 0
 H1 grand parent
 ^D
@@ -14,6 +15,14 @@ H2 parent 2
 H3 kid 3
 ^D
 on Mac use Command D to indicate end of file (IntelliJ terminal)
+=======
+H1 Level 1
+H2 Level 2 a
+H3 Level 3 a
+H3 Level 3 b
+H2 Level 2 b
+H3 Level 3 c
+>>>>>>> Stashed changes
  */
 class navigateHeadings
 {
