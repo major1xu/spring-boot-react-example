@@ -7,7 +7,7 @@ import java.util.Comparator;
 import java.util.Arrays;
 import java.util.function.Predicate;
 // https://www.tutorialspoint.com/java8/java8_overview.htm
-public class Java8Tester {
+public class Java8FunctionalInterface {
 
     public static void main(String args[]) {
 //https://www.tutorialspoint.com/java8/java8_functional_interfaces.htm
