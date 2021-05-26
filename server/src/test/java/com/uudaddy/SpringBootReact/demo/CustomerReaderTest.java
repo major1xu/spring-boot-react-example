@@ -38,7 +38,7 @@ public class CustomerReaderTest {
         String fullName = customerReader.findFullName(1L);
         assertEquals("Susan Ivanova",fullName);
     }
-/* need some work
+/*
     @Test
     public void customerNotPresentInDb(){
         when(entityManager.find(Customer.class,1L)).thenReturn(null);
@@ -46,6 +46,6 @@ public class CustomerReaderTest {
         String fullName = customerReader.findFullName(1L);
         assertEquals("",fullName);
     }
+*/
 
- */
 }
