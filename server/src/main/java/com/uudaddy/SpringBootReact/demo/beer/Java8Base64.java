@@ -3,7 +3,7 @@ package com.uudaddy.SpringBootReact.demo.beer;
 import java.util.Base64;
 import java.util.UUID;
 import java.io.UnsupportedEncodingException;
-
+// https://www.tutorialspoint.com/java8/java8_base64.htm
 public class Java8Base64 {
 
     public static void main(String args[]) {
