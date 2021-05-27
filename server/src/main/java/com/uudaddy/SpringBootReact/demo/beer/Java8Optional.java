@@ -1,10 +1,10 @@
 package com.uudaddy.SpringBootReact.demo.beer;
 import java.util.Optional;
 
-public class Java8Tester {
+public class Java8Optional {
 
     public static void main(String args[]) {
-        Java8Tester java8Tester = new Java8Tester();
+        Java8Optional java8Tester = new Java8Optional();
         Integer value1 = null;
         Integer value2 = new Integer(10);
 
